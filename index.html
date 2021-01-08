@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="hero">
+            <h1>Pokemon Top Trumps</h1>
+            <h2 class="winner"></h2>
+        </div>
+        <div class="cards">
+                <div class="card card1">
+
+                    <h2 class="head"></h2>
+                    <div class="statbox">
+                        <input name="p1", value="hp1", class="hp1 radio", type="radio"
+                        accesskey='H'>
+                        <h3 class="statType">HP</h3>
+                        <p class="stat stat1"></p>
+                    </div>
+                    <div class="statbox">
+                        <input name="p1", value="attack", class="attack radio" type="radio"
+                        accesskey='attack'>
+                        <h3 class="statType">Attack</h3>
+                        <p class="stat stat2"></p>
+                    </div>
+                    <div class="statbox">
+                        <input name="p1", value="defense", class="defense radio" type="radio"
+                         accesskey='defense'>
+                        <h3 class="statType">Defense</h3>
+                        <p class="stat stat3"></p>
+                    </div>
+                    <div class="statbox">
+                        <input name="p1", value="specialAttack", class="spec-att radio" type="radio"
+                        accesskey='SA'>
+                        <h3 class="statType">Special Attack</h3>
+                        <p class="stat stat4"></p>
+                    </div>
+                    <div class="statbox">
+                        <input name="p1", value="specialDefense", class="spec-def radio" type="radio"
+                        accesskey='SD'>
+                        <h3 class="statType">Special Defense</h3>
+                        <p class="stat stat5"></p>
+                    </div>
+                </div>
+            
+                <div class="card card2 hide">
+                    <h2 class="head"></h2>
+                    <div class="statbox">
+                        <input name="p2", value="hp2", class="hp2 radio", type="radio"
+                    accesskey='H2'>
+                        <h3 class="statType">HP</h3>
+                    <p class="stat stat1"></p>
+                    </div>
+                    <div class="statbox">
+                        <input name="p2", value="attack2", class="attack2 radio" type="radio"
+                        accesskey='attack2'>
+                        <h3 class="statType">Attack</h3>
+                        <p class="stat stat2"></p>  
+                    </div>
+                    <div class="statbox">
+                        <input name="p2" value="defense2" class="defense2 radio" type="radio"
+                        accesskey='defense2'>
+                        <h3 class="statType">Defense</h3>
+                    <p class="stat stat3"></p>
+                    </div>
+                    <div class="statbox">
+                        <input name="p2", value="specialAttack2", class="spec-att2 radio" type="radio"
+                         accesskey='SA2'>
+                        <h3 class="statType">Special Attack</h3>
+                        <p class="stat stat4"></p>
+                    </div>
+                    <div class="statbox">
+                        <input name="p2", value="specialDefense2", class="spec-def2 radio" type="radio"
+                        accesskey='SD2'>
+                        <h3 class="statType">Special Defense</h3>
+                        <p class="stat stat5"></p>
+                    </div>
+                </div>
+        </div>
+    </div>
+ 
+    <script src="./script.js"></script>
+</body>
+</html>
+
